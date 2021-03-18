@@ -38,6 +38,8 @@ http_archive(
 )
 
 # TF on 2021-03-31.
+# TODO(fergus): update this to a version that incorporates the following
+#               pending CL: CL/363545235.
 TENSORFLOW_COMMIT = "6f898e658a7469cecb10db224ec27e40d027378e"
 TENSORFLOW_SHA256 = "4fc9a7fd771e85be639a8b5d2fd72b4530db44275035eb2f4bc90d6f6c5bf0a9"
 # These values come from tensorflow/workspace3.bzl. If the TF commit is updated,
